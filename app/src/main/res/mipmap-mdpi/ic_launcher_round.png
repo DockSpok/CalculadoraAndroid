@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json.schemastore.org/schema-catalog",
+
+  "version": 1.0,
+  "schemas": [
+    {
+      "name": ".angular-cli.json",
+      "description": "Angular CLI configuration file",
+      "fileMatch": [".angular-cli.json", "angular-cli.json"],
+      "url": "https://raw.githubusercontent.com/angular/angular-cli/master/packages/angular/cli/lib/config/schema.json"
+    },
+    {
+      "name": "Ansible",
+      "description": "Ansible task files",
+      "url": "http://json.schemastore.org/ansible-stable-2.7",
+      "fileMatch": ["tasks/*.yml", "tasks/*.yaml"],
+      "versions": {
+        "2.0": "http://json.schemastore.org/ansible-stable-2.0",
+        "2.1": "http://json.schemastore.org/ansible-stable-2.1",
+        "2.2": "http://json.schemastore.org/ansible-stable-2.2",
+        "2.3": "http://json.schemastore.org/ansible-stable-2.3",
+        "2.4": "http://json.schemastore.org/ansible-stable-2.4",
+        "2.5": "http://json.schemastore.org/ansible-stable-2.5",
+        "2.6": "http://json.schemastore.org/ansible-stable-2.6",
+        "2.7": "http://json.schemastore.org/ansible-stable-2.7"
+      }
+    },
+    {
+      "name": "apple-app-site-association",
+      "description": "Apple Universal Link, App Site Association",
+      "fileMatch": ["apple-app-site-association"],
+      "url": "http://json.schemastore.org/apple-app-site-association"
+    },
+    {
+      "name": "appsscript.json",
+      "description": "Google Apps Script manifest file",
+      "fileMatch": ["appsscript.json"],
+      "url": "http://json.schemastore.org/appsscript"
+    },
+    {
+      "name": "appsettings.json",
+      "description": "ASP.NET Core's configuration file",
+      "fileMatch": ["appsettings.json", "appsettings.*.json"],
+      "url": "http://json.schemastore.org/appsettings"
+    },
+    {
+      "name": "appveyor.yml",
+      "description": "AppVeyor CI configuration file",
+      "fileMatch": ["appveyor.yml"],
+      "url": "http://json.schemastore.org/appveyor"
+    },
+    {
+      "name": "Avro Avsc",
+      "description": "Avro Schema Avsc file",
+      "fileMatch": [".avsc"],
+      "url": "http://json.schemastore.org/avro-avsc"
+    },
+    {
+      "name": "Azure IoT Edge deployment",
+      "description": "Azure IoT Edge deployment schema",
+      "url": "http://json.schemastore.org/azure-iot-edge-deployment-2.0",
+      "versions": {
+        "1.0": "http://json.schemastore.org/azure-iot-edge-deployment-1.0",
+        "1.1": "http://json.schemastore.org/azure-iot-edge-deployment-2.0"
+      }
+    },
+    {
+      "name": "Azure IoT Edge deployment template",
+      "description": "Azure IoT Edge deployment template schema",
+      "fileMatch": ["deployment.template.json", "deployment.*.template.json"],
